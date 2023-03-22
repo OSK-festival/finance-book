@@ -43,7 +43,7 @@ base:
   align: left
   font_color: 222222
   font_family: GenYoMin
-  line_height: 1.3
+  line_height: 1.5
   line_height_length: 15
 
 heading:
