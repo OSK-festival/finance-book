@@ -45,6 +45,7 @@ base:
   font_family: GenYoMin
   line_height: 1.5
   line_height_length: 15
+  border-color: 222222
 
 heading:
   # font_color: ba3925
