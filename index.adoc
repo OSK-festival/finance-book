@@ -102,5 +102,5 @@ include::part3.adoc[]
 //
 [[失敗した事例集]]
 == 失敗した事例集
-include::part.adoc[]
+include::part4.adoc[]
 
