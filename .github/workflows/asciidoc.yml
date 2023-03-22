@@ -1,0 +1,45 @@
+name: AsciiDoctor
+on:
+  push:
+    branches: [master]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
+jobs:
+  bulid_asciidoctor:
+    runs-on: ubuntu-latest
+    name: Build AsciiDoctor
+    steps:
+      - name: Check out
+        uses: actions/checkout@v2
+
+      - name: Build
+        id: documents
+        uses: Analog-inc/asciidoctor-action@v1
+        with:
+          shellcommand: "./.github/workflows/asciidoc.sh"
+
+      - name: Upload
+        uses: actions/upload-artifact@v1
+        with:
+          name: Output-document
+          path: ./outputs/
+
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v1
