@@ -77,7 +77,9 @@ endif::[]
 
 
 toc::[]
+ifdef::backend-html5[]
 PDF版はlink:pdf/output.pdf[こちら]
+endif::[]
 //
 [[記念祭の会計について]]
 == 記念祭の会計について
