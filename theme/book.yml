@@ -47,10 +47,11 @@ base:
   line_height_length: 15
 
 heading:
-  font_color: ba3925
+  # font_color: ba3925
   font_family: GenShinGothic
   h1_font_size: floor($base_font_size * 2.4)
   h2_font_size: floor($base_font_size * 2.4)
+  h2_border-width: [1, 0]
   h3_font_size: round($base_font_size * 1.7)
   h4_font_size: round($base_font_size * 1.4)
   h5_font_size: $base_font_size
