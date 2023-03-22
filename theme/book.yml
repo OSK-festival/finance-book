@@ -47,6 +47,7 @@ base:
   line_height_length: 15
   border-color: 222222
   border-style: solid
+  border-offset: 3.0
 
 heading:
   # font_color: ba3925
