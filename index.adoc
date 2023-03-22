@@ -96,3 +96,11 @@ include::part2.adoc[]
 [[食物仕入金について]]
 == 食物仕入金について
 include::part3.adoc[]
+
+<<<
+
+//
+[[失敗した事例集]]
+== 失敗した事例集
+include::part.adoc[]
+
