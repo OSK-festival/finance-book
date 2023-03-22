@@ -45,17 +45,21 @@ base:
   font_family: GenYoMin
   line_height: 1.5
   line_height_length: 15
-  border-color: 222222
-  border-style: solid
-  border-offset: 3.0
+  # border-color: 222222
+  # border-style: solid
+  # border-offset: .0
 
 heading:
   # font_color: ba3925
   font_family: GenShinGothic
   h1_font_size: floor($base_font_size * 2.4)
-  h2_font_size: floor($base_font_size * 2.4)
-  h2_border-width: [1, 0]
-  h2_border-color: 222222
+  h2:
+    font_size: floor($base_font_size * 2.4)
+    border-width: [1, 0]
+    border-color: 222222
+    border-color: 222222
+    border-style: solid
+    border-offset: .0
   h3_font_size: round($base_font_size * 1.7)
   h4_font_size: round($base_font_size * 1.4)
   h5_font_size: $base_font_size
