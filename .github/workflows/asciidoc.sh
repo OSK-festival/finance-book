@@ -24,6 +24,6 @@ set -x
 
 asciidoctor -B ${CURRENT_PATH}/ -D ${CURRENT_PATH}/outputs/ -o index.html  -a imagesdir=${CURRENT_PATH}/images -r asciidoctor-diagram index.adoc
 
-asciidoctor-pdf -B ${CURRENT_PATH}/ -D ${CURRENT_PATH}/outputs/pdf/ -o output.pdf -a imagesdir=${CURRENT_PATH}/images -r asciidoctor-diagram -r ${CURRENT_PATH}/configs/config.rb -a scripts@=cjk -a pdf-styledir=${ASCIIDOCTOR_PDF_DIR}/data/themes -a pdf-style=${CURRENT_PATH}/themes/book.yml -a pdf-fontsdir=${CURRENT_PATH}/fonts -a allow-uri-read index.adoc
+asciidoctor-pdf -B ${CURRENT_PATH}/ -D ${CURRENT_PATH}/outputs/pdf/ -o output.pdf -a imagesdir=${CURRENT_PATH}/images -r asciidoctor-diagram -r ${CURRENT_PATH}/configs/config.rb -a scripts@=cjk -a pdf-styledir=${ASCIIDOCTOR_PDF_DIR}/data/them -a pdf-style=${CURRENT_PATH}/theme/book.yml -a pdf-fontsdir=${CURRENT_PATH}/fonts -a allow-uri-read index.adoc
 
 # asciidoctor-epub3 -B ${CURRENT_PATH}/ -D ${CURRENT_PATH}/outputs/ebub/ -o sample.epub -a imagesdir=${CURRENT_PATH}/images -r asciidoctor-diagram index.adoc
