@@ -78,7 +78,7 @@ title_page:
     margin_top: $base_font_size * 1.25
   revision:
     margin_top: $base_font_size * 1.25
-  logo-image: image:../images/analog-logo.svg[width=128,align=center]
+  # logo-image: image:../images/analog-logo.svg[width=128,align=center]
 
 table:
   font_family: $heading_font_family
