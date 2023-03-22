@@ -28,7 +28,7 @@ jobs:
           shellcommand: "./.github/workflows/asciidoc.sh"
 
       - name: Upload
-        uses: actions/upload-artifact@v1
+        uses: actions/upload-pages-artifact@v1
         with:
           name: Output-document
           path: ./outputs/
