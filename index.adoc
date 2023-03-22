@@ -86,13 +86,13 @@ include::part1.adoc[]
 <<<
 
 //
-[[README]]
-== AsciidocサンプルのREADME
+[[配布金について]]
+== 配布金について
 include::part2.adoc[]
 
 <<<
 
 //
-[[license]]
-== ライセンスについて
+[[食物仕入金について]]
+== 食物仕入金について
 include::part3.adoc[]
