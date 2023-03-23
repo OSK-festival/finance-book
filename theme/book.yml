@@ -91,7 +91,7 @@ title_page:
 
 table:
   font_family: $heading_font_family
-  background_color: fff
+  background_color: ffffff
   border_color: 454545
   border_width: $base_border_width
   cell_padding: 3
