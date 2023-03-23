@@ -138,10 +138,10 @@
 // <!-- ![](https://i.imgur.com/BNRHtHM.png) -->
   image::https://i.imgur.com/0PHLQfY.png[]
   ↑入力が完了している場合の表示
-  // ![](https://i.imgur.com/M7s3Jhi.png)
-  // <!-- ![](https://i.imgur.com/c6JBtrO.png)  -->
+imgae:: https://i.imgur.com/M7s3Jhi.png[入力が完了していない場合の表示]
+// <!-- ![](https://i.imgur.com/c6JBtrO.png)  -->
   ↑ 入力が完了していない場合の表示
-  // :::
+// :::
 2. 次に、「入力_買い出し」と「入力_スマスク」シートへ移動して、以下の具体的な内容を記入してください。買い出し(実際に店舗に行って購入したもの)とスマートスクールを利用して購入したものは、それぞれ別のシートに入力してください。
     * レシート番号
     * 商品名
