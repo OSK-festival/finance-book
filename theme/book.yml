@@ -117,4 +117,4 @@ lead:
   line_height: 1.4
   font_color: $heading_font_color
 admonition:
-  border-color: 9fa1b5
+  column-rule-color: 9fa1b5
