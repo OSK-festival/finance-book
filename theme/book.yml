@@ -55,7 +55,7 @@ heading:
   h1_font_size: floor($base_font_size * 2.4)
   h2:
     font_size: floor($base_font_size * 2.4)
-    border-width: [1, 0]
+    border-width: [2, 2]
     border-color: 222222
     border-color: 222222
     border-style: solid
@@ -91,19 +91,19 @@ title_page:
 
 table:
   font_family: $heading_font_family
-  background_color: $page_background_color
-  border_color: e0dccd
+  background_color: fff
+  border_color: 454545
   border_width: $base_border_width
   cell_padding: 3
   head:
-    background_color: f1eee8
+    background_color: ccccc
     font_color: $base_font_color
     font_style: bold
   body:
     background_color: $page_background_color
     stripe_background_color: fbfaf8
   foot:
-    background_color: f0f0f0
+    background_color: ccccc
 
 caption:
   align: left
