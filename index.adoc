@@ -48,7 +48,7 @@ v0.0, 2023-03-21
 :warning-caption: 警告
 :listing-caption:
 // 「Chapter.」を表示しないようにする。
-:chapter-label:
+:chapter-label: 
 
 
 
