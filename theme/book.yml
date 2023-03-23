@@ -116,3 +116,5 @@ lead:
   font_size: $base_font_size
   line_height: 1.4
   font_color: $heading_font_color
+admonition:
+  border-color: #9fa1b5
