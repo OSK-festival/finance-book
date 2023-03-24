@@ -118,4 +118,6 @@ lead:
   font_color: $heading_font_color
 admonition:
   column-rule-color: 9fa1b5
-  label-font-color: 22dd22
+  label:
+  font-color: 22dd22
+  font-family: GenShinGothic
