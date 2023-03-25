@@ -119,5 +119,6 @@ lead:
 admonition:
   column-rule-color: 9fa1b5
   label:
+    font-kerning: normal
     font-color: 22dd22
     font-family: GenShinGothic
