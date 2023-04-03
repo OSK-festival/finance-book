@@ -1,5 +1,8 @@
 = 会計Book
-v0.0, 2023-03-21
+記念祭幹部会計班
+:revnumber:  v0.3
+:revdate: %today%
+:version-label: Edition
 :homepage: https://www.metro.ed.jp/oshukan-s/
 :asciidoctor:
 :backend: html5
@@ -44,7 +47,7 @@ v0.0, 2023-03-21
 :tip-caption: ヒント
 :toc-title: 目次
 :untitled-label: 無題
-:version-label: Ver.
+:version-label:
 :warning-caption: 警告
 :listing-caption:
 // 「Chapter.」を表示しないようにする。
