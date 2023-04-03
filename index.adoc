@@ -75,6 +75,13 @@ ifdef::backend-docbook5[]
 :thumbnail: width='20mm'
 endif::[]
 
+//
+[[はじめに]]
+== はじめに
+include::part0.adoc[]
+
+<<<
+
 
 toc::[]
 ifdef::backend-html5[]
