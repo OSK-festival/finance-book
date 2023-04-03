@@ -75,11 +75,12 @@ ifdef::backend-docbook5[]
 :thumbnail: width='20mm'
 endif::[]
 
+:sectnums!:
 //
 [[はじめに]]
 == はじめに
 include::part0.adoc[]
-
+:sectnums:
 <<<
 
 
