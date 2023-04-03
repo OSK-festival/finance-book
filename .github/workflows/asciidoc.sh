@@ -5,6 +5,11 @@ mkdir -p ./outputs/pdf
 # mkdir -p ./outputs/html
 mkdir -p ./outputs/ebub
 
+today=`date "+%Y/%m/%d %H:%M:%S"`
+# 今日の日付
+sed -e "s/%today%/$today/g" index.adoc
+# ファイルの日付部分を置き換え
+
 
 CURRENT_PATH=`pwd`
 ASCIIDOCTOR_PDF_DIR=`gem contents asciidoctor-pdf --show-install-dir`
@@ -20,10 +25,6 @@ ASCIIDOCTOR_PDF_DIR=`gem contents asciidoctor-pdf --show-install-dir`
 # -d, --doctype = DOCTYPE
 # -r, --require = LIBRARY
 
-today=`date "+%Y/%m/%d %H:%M:%S"`
-# 今日の日付
-sed -e "s/%today%/$today/g" index.adoc
-# ファイルの日付部分を置き換え
 
 set -x
 
