@@ -7,7 +7,7 @@ mkdir -p ./outputs/ebub
 
 today=`date "+%Y/%m/%d %H:%M:%S"`
 # 今日の日付
-sed -e 's/%today%/'$today'/' index.adoc
+sed -e 's/%today%/'"$today"'/' index.adoc
 # ファイルの日付部分を置き換え
 
 
