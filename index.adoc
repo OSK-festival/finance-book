@@ -1,6 +1,6 @@
 = 会計Book
 記念祭幹部会計班
-:revnumber:  v0.4
+:revnumber:  v0.5
 :revdate: %today%
 :version-label: Edition
 :homepage: https://www.metro.ed.jp/oshukan-s/
