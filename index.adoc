@@ -80,6 +80,11 @@ endif::[]
 
 :sectnums!:
 //
+
+ifdef::backend-html5[]
+PDF版はlink:pdf/output.pdf[こちら]
+endif::[]
+
 [[はじめに]]
 == はじめに
 include::part0.adoc[]
@@ -88,9 +93,7 @@ include::part0.adoc[]
 
 
 toc::[]
-ifdef::backend-html5[]
-PDF版はlink:pdf/output.pdf[こちら]
-endif::[]
+
 //
 [[記念祭の会計について]]
 == 記念祭の会計について
