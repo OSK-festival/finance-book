@@ -48,7 +48,8 @@ base:
   # border-color: 222222
   # border-style: solid
   # border-offset: .0
-
+toc:
+  line-height: 1.5
 heading:
   # font_color: ba3925
   font_family: GenShinGothic
