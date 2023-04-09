@@ -78,7 +78,7 @@ ifdef::backend-docbook5[]
 :thumbnail: width='20mm'
 endif::[]
 
-:sectnums!: 
+:sectnums!:
 //
 
 ifdef::backend-html5[]
