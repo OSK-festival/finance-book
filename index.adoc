@@ -79,6 +79,7 @@ ifdef::backend-docbook5[]
 endif::[]
 
 :sectnums!:
+
 //
 
 ifdef::backend-html5[]
