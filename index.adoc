@@ -51,7 +51,7 @@
 :warning-caption: 警告
 :listing-caption:
 // 「Chapter.」を表示しないようにする。
-:chapter-label: 
+:chapter-label:
 
 
 
