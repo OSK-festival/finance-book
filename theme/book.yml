@@ -69,6 +69,9 @@ heading:
   margin_top: $vertical_rhythm * 0.9
   margin_bottom: $vertical_rhythm * 0.9
 
+page:
+  margin: [0.5in, 0.67in, 1in, 0.67in]
+  
 title_page:
   align: center
   title:
