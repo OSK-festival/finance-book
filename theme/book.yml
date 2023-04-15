@@ -59,8 +59,8 @@ heading:
     border-width: [20, 2,2,2]
     # border-color: 222222
     border-color: 222222
-    border-style: solid
-    border-offset: .0
+  #  border-style: solid
+  #  border-offset: .0
   h3_font_size: round($base_font_size * 1.7)
   h4_font_size: round($base_font_size * 1.4)
   h5_font_size: $base_font_size
