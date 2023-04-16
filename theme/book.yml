@@ -56,7 +56,7 @@ heading:
   h1_font_size: floor($base_font_size * 2.4)
   h2:
     font_size: floor($base_font_size * 2.4)
-    border-width: [20, 2,2,2]
+    border-width: [20, 2, 2, 2]
     # border-color: 222222
     border-color: #222222
     border-style: solid
@@ -72,7 +72,7 @@ heading:
 page:
   margin: 90
 #  margin: [0.5in, 0.67in, 1in, 0.67in]
-  
+
 title_page:
   align: center
   title:
