@@ -56,9 +56,10 @@ heading:
   h1_font_size: floor($base_font_size * 2.4)
   h2:
     font_size: floor($base_font_size * 2.4)
-    border_width: [0, 0, 2, 0]
+  h2-border-width:
+    [0.75, 0, 2, 0]
     # border-color: 222222
-    border_color: #222222
+    # border_color: #222222
   #  border-style: solid
   #  border-offset: .0
   h3_font_size: round($base_font_size * 1.7)
