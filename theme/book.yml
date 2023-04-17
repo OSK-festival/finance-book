@@ -116,7 +116,8 @@ caption:
   align: left
   font_size: $base_font_size_small
   font_family: $heading_font_family
-  font_color: $heading_font_color
+#   font_color: $heading_font_color
+  font_color: 000
   margin_outside: 0
 lead:
   font_family: $heading_font_family
