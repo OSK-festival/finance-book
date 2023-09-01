@@ -51,18 +51,12 @@ base:
 toc:
   line-height: 1.5
 heading:
-  # font_color: ba3925
   font_family: GenShinGothic
   h1_font_size: floor($base_font_size * 2.4)
   h2:
     font_size: floor($base_font_size * 2.4)
-  #  text-decoration: underline
-    border-width: [0.75, 0, 2pt, 0]
+    border-width: 2pt
     border-color: 000000
-    border-offset: 2.0
-    # border_color: #222222
-  #  border-style: solid
-  #  border-offset: .0
   h3_font_size: round($base_font_size * 1.7)
   h4_font_size: round($base_font_size * 1.4)
   h5_font_size: $base_font_size
